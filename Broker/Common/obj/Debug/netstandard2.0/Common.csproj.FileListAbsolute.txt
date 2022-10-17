@@ -1,0 +1,10 @@
+C:\Users\Ovidiu\Desktop\pad\Broker\Common\bin\Debug\netstandard2.0\Common.deps.json
+C:\Users\Ovidiu\Desktop\pad\Broker\Common\bin\Debug\netstandard2.0\Common.dll
+C:\Users\Ovidiu\Desktop\pad\Broker\Common\bin\Debug\netstandard2.0\Common.pdb
+C:\Users\Ovidiu\Desktop\pad\Broker\Common\obj\Debug\netstandard2.0\Common.csproj.AssemblyReference.cache
+C:\Users\Ovidiu\Desktop\pad\Broker\Common\obj\Debug\netstandard2.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ovidiu\Desktop\pad\Broker\Common\obj\Debug\netstandard2.0\Common.AssemblyInfoInputs.cache
+C:\Users\Ovidiu\Desktop\pad\Broker\Common\obj\Debug\netstandard2.0\Common.AssemblyInfo.cs
+C:\Users\Ovidiu\Desktop\pad\Broker\Common\obj\Debug\netstandard2.0\Common.csproj.CoreCompileInputs.cache
+C:\Users\Ovidiu\Desktop\pad\Broker\Common\obj\Debug\netstandard2.0\Common.dll
+C:\Users\Ovidiu\Desktop\pad\Broker\Common\obj\Debug\netstandard2.0\Common.pdb
