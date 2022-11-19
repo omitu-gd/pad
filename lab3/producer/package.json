@@ -1,0 +1,17 @@
+{
+  "name": "producer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "rm -rf dist && esbuild index.js --bundle --minify --sourcemap --platform=node --target=node16 --outdir=dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-sqs": "^3.213.0",
+    "esbuild": "^0.15.14"
+  }
+}
