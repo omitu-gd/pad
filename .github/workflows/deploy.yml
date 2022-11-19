@@ -23,10 +23,10 @@ jobs:
           role-to-assume: arn:aws:iam::${{ secrets.AWS_ACCOUNT_ID }}:role/github-actions-cdk
           aws-region: eu-west-1
       - name: Install and build consumer
-        run: cd consumer && npm install && npm run build
+        run: cd lab3/consumer && npm install && npm run build
       - name: Install and build producer
-        run: cd producer && npm install && npm run build
+        run: cd lab3/producer && npm install && npm run build
       - name: Install and build frontend
-        run: cd frontend && npm install && npm run build
+        run: cd lab3/frontend && npm install && npm run build
       - name: Install and deploy infrastructure
-        run: cd infra && npm install && npm run cdk deploy "*"
+        run: cd lab3/infra && npm install && npm run cdk deploy "*"
