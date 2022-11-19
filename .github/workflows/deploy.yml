@@ -29,4 +29,4 @@ jobs:
       - name: Install and build frontend
         run: cd lab3/frontend && npm install && npm run build
       - name: Install and deploy infrastructure
-        run: cd lab3/infra && npm install && npm run cdk deploy "*"
+        run: cd lab3/infra && npm install && npm run cdk deploy "*" -- --ci --require-approval never
