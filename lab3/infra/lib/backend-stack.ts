@@ -9,7 +9,7 @@ export class BackendStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props?: cdk.StackProps) {
     super(scope, id, props);
 
-    const queue = new sqs.Queue(this, 'MyQueue');
+    const queue = new sqs.Queue(this, 'MyQueue1');
 
     const producer = new lambda.Function(this, 'Producer', {
       code: lambda.Code.fromAsset(path.resolve(__dirname, '../../producer/dist')),
